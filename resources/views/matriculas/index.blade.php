@@ -1,0 +1,6 @@
+@extends('layouts.app')
+@section('titulo', 'Gestión de matrículas')
+@section('contenido')
+<section class="scope-notice"><i class="fas fa-circle-info" aria-hidden="true"></i><div><strong>Módulo propuesto · Sin operaciones de registro</strong><p>Conectar la inscripción del estudiante con su ciclo académico. Este diseño documenta funcionalidades previstas, todavía no implementadas.</p></div></section>
+<section class="proposal-table"><h2>Flujo previsto</h2><p>La siguiente tabla describe la propuesta funcional. No contiene registros de personas.</p><div class="table-responsive"><table class="table"><thead><tr><th scope="col">Proceso</th><th scope="col">Información prevista</th><th scope="col">Resultado esperado</th></tr></thead><tbody><tr><th scope="row">Inscripción</th><td>Estudiante, programa y ciclo</td><td>Registro de matrícula</td></tr><tr><th scope="row">Asignación de sección</th><td>Vacantes y turno</td><td>Organización de grupos</td></tr><tr><th scope="row">Confirmación</th><td>Estado y fecha de matrícula</td><td>Seguimiento administrativo</td></tr></tbody></table></div><a href="{{ route('dashboard') }}" class="btn btn-outline-success mt-3">Volver al panel</a></section>
+@endsection

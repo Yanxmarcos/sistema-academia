@@ -1,0 +1,6 @@
+@extends('layouts.app')
+@section('titulo', 'Control de asistencias')
+@section('contenido')
+<section class="scope-notice"><i class="fas fa-circle-info" aria-hidden="true"></i><div><strong>Módulo propuesto · Sin operaciones de registro</strong><p>Acompañar la participación de los estudiantes en sus clases. Este diseño documenta funcionalidades previstas, todavía no implementadas.</p></div></section>
+<section class="proposal-table"><h2>Flujo previsto</h2><p>La siguiente tabla describe la propuesta funcional. No contiene registros de personas.</p><div class="table-responsive"><table class="table"><thead><tr><th scope="col">Proceso</th><th scope="col">Información prevista</th><th scope="col">Resultado esperado</th></tr></thead><tbody><tr><th scope="row">Registro por sesión</th><td>Fecha, curso y sección</td><td>Asistencia diaria</td></tr><tr><th scope="row">Estado de asistencia</th><td>Presente, tardanza o ausencia</td><td>Seguimiento de participación</td></tr><tr><th scope="row">Consulta individual</th><td>Estudiante y periodo</td><td>Historial de asistencia</td></tr></tbody></table></div><a href="{{ route('dashboard') }}" class="btn btn-outline-success mt-3">Volver al panel</a></section>
+@endsection
